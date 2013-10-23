@@ -1,0 +1,24 @@
+space_basic.py
+
+This code started as an exercise inspired by the discovery that
+  zip(*tuple_of_numeric_tuples)
+performs a matrix transposition, with the matrix represented as a tuple
+of row tuples.  The challenge was to write a linear algebra package as
+briefly as possible in pure python, and optimize the speed.
+
+Excluding module test code, the result of the exercise is these 80
+lines, only 40 of which are executable.
+
+There will be no continuation of this development.  It is, rather, the
+root of a sequence of forks that gradually add more function and improve
+robustness and numeric speed, at the cost of increased complexity.
+
+This code may be suitable for use in an embedded system where some
+simple calculations need to be performed, but that can not justify the
+overhead of a later fork or numpy.
+
+The next level of complexity is expressed by space.py, directly forked
+from this repository.
+
+Since space_basic.py is exquisitely elementary, there is no license, and
+is placed in the public domain by this repository.
